@@ -56,7 +56,7 @@ func SendEmail(c Car) {
 
 	fmt.Println("Message created")
 
-	d := gomail.NewDialer("smtp.gmail.com", 587, "przmld033@gmail.com", "bsmmdmblemjtcmru")
+	d := gomail.NewDialer("smtp.gmail.com", 587, "przmld033@gmail.com", "SECRET")
 	//d.TLSConfig = &tls.Config{InsecureSkipVerify: true}
 
 	fmt.Println("Connecting to SMTP")
